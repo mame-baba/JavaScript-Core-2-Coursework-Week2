@@ -3,7 +3,7 @@ function shoppingList(arrayOfPeople) {
   var myNewList = document.createElement("ul");
   arrayOfPeople.forEach(element => {
 var newShoppingList = document.createElement("li");
-newShoppingList.innerText = element;
+newShoppingList.innerText = "element";
 myNewList.appendChild(newShoppingList);
 
   });
